@@ -74,6 +74,14 @@
 
 在Xcode的文件导航栏中选择`High RollerTests`组，选中`File/New/File...`选择`macOS\Unit Test Case Class`。点击`Next`命名类为`DiceTests`。确保语言设置的是Swift。点击`Next`和`Create`。
 
+选中类中的所有代码删掉。在`DiceTests.swift`文件中的`import XCTest`下加入如下语句：
+
+```swift
+@testable import High_Roller
+```
+
+现在你可以删掉`HighRollerTests.swift`文件了，因为你不再需要这个默认的测试了。
+
 
 
 
