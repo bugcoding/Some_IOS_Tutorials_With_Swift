@@ -96,6 +96,16 @@ func testForDice(){
 
 用最少的代码让这个测试通过，在文件导航栏中选中在`High Roller`组中的`Model`组。用`File\New\File...`创建一个新的Swift文件并命名为`Dice.swift`。
 
+文件中加入如下代码:
+
+```swift
+struct Dice{
+  
+}
+```
+
+返回`DiceTests.swift`文件中，下次构建工程的时候错误才会消失。现在你可通过几种不同的方式来运行测试。
+
 
 
 
