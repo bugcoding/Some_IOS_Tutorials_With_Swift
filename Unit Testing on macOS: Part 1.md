@@ -84,6 +84,16 @@
 
 ### 你的第一个测试
 
+在`DiceTests`类中加入下面的测试函数:
+
+```swift
+func testForDice(){
+  let _ = Dice()
+}
+```
+
+在你运行测试之前这会报一个编译错误:"Use of unresolved identifier 'Dice'"。在TDD中，编译错误就是测试失败，所以你必须完成TDD测试步骤中的第一步。
+
 
 
 
