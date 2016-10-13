@@ -94,6 +94,8 @@ func testForDice(){
 
 在你运行测试之前这会报一个编译错误:"Use of unresolved identifier 'Dice'"。在TDD中，编译错误就是测试失败，所以你必须完成TDD测试步骤中的第一步。
 
+用最少的代码让这个测试通过，在文件导航栏中选中在`High Roller`组中的`Model`组。用`File\New\File...`创建一个新的Swift文件并命名为`Dice.swift`。
+
 
 
 
