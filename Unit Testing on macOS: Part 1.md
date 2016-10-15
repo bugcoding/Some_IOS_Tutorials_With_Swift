@@ -120,7 +120,11 @@ struct Dice{
 
 在工具栏中弹出scheme菜单，选择`Edit scheme...`在左边面板中点击`Test`，取消选中`High RollerUITests`。关闭scheme窗口，再用`Command-U`跑一下测试。UI测试已在测试导航栏中变灰，但是你还可以手动去运行它。
 
+![](https://koenig-media.raywenderlich.com/uploads/2016/08/TurnOffUITests.png)
 
+### 选择运行哪个测试
+
+那么哪个方法需要你跑测试呢？单个的函数，类还是全部测试？
 
 
 
