@@ -118,7 +118,7 @@ struct Dice{
 
 在文件导航栏，你能看到`High RollerUITest`也在运行。UI测试有个问题就是跑起来非常慢。而你又想尽可能快的测试，没有任何缺陷的频繁测试。为解决这个问题，需要改动一下scheme让UI测试不自动运行。
 
-
+在工具栏中弹出scheme菜单，选择`Edit scheme...`在左边面板中点击`Test`，取消选中`High RollerUITests`。关闭scheme窗口，再用`Command-U`跑一下测试。UI测试已在测试导航栏中变灰，但是你还可以手动去运行它。
 
 
 
